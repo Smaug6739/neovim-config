@@ -43,3 +43,8 @@ Commandes
 - `Telescope find_files` Pour rechecher un fichier
 - `Telescope live_grep`  Pour rechercher une ligne dans les fichiers du projet
 
+## Treesitter
+
+Ce plugin permet une coloration syntaxique correcte du language. Il est possible d'ajouter/changer/supprimer des langages dans le fichier `treesitter.lua` (`ensure_installed`). Voir la liste des languages pris en charges (https://github.com/nvim-treesitter/nvim-treesitter#supported-languages)
+
+
