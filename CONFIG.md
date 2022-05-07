@@ -23,6 +23,7 @@ L'installer (l'ajouter aux plugins cmp dans plugins.lua)
 Et ajouter son nom à l'objet `sources` dans `cmp.lua` (ligne 113) `{ name = "path" },`
 
 ## LSP
+
 Ajouter un nouveau serveur :
 `:LspInstallInfo` : Montres les serveurs installés et les serveurs disponibles
 - Ajouter un serveur : Appuyer sur `i` sur le serveur en question
@@ -32,3 +33,13 @@ Ajouter un nouveau serveur :
 Obtenir des informations sur un serveur : `:LspInfo`
 
 Infos sur une erreur : `gL`
+
+## FZF
+
+Telescope https://github.com/nvim-telescope/telescope.nvim
+
+Commandes
+
+- `Telescope find_files` Pour rechecher un fichier
+- `Telescope live_grep`  Pour rechercher une ligne dans les fichiers du projet
+
