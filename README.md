@@ -1,5 +1,6 @@
-# neovim-config
-My personnal neovim config
+# Neovim-config
+
+My personnal neovim config written in lua
 
 ## Preview
 
