@@ -21,13 +21,6 @@
 - <kbd>r</kbd>  Replace the text with the next character you type
 - <kbd>yq/p</kbd> Search for the text elsewhere in your document
 
-### Indentation
-
-- <kbd>></kbd> Intent selected lines to right
-- <kbd><</kbd> Intent selected lines to left
-- <kbd>\<number> ></kbd> Intent selected lines to right with <number> spaces
-- <kbd>\<number> <</kbd> Intent selected lines to left with <number> spaces
-
 ## Visual mode
 
 - <kbd>v</kbd> (lower case v) begins regular Visual mode, and works similar to selecting text with a mouse. Use <kbd>h</kbd> and <kbd>l</kbd> to expand the selection left and right to include more words, and use <kbd>j</kbd> and <kbd>k</kbd> to expand the selection to the lines below and above.
