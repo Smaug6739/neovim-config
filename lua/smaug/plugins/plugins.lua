@@ -54,7 +54,8 @@ return packer.startup(function(use)
   use "windwp/nvim-autopairs"
 
   -- Theme
-  use 'joshdick/onedark.vim'               -- Colorscheme
+  --use 'joshdick/onedark.vim'             -- Colorscheme
+  use 'projekt0n/github-nvim-theme'        -- Colorscheme
   use 'nvim-lualine/lualine.nvim'          -- Status line
   use 'romgrk/barbar.nvim'                 -- Tabline plugin
 
