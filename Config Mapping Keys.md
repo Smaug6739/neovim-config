@@ -23,6 +23,13 @@
 
 - <kbd>Ctrl+x</kbd> : Cut line
 
+### Indentation
+
+- <kbd>></kbd> Intent selected lines to right
+- <kbd><</kbd> Intent selected lines to left
+- <kbd>\<number> ></kbd> Intent selected lines to right with <number> spaces
+- <kbd>\<number> <</kbd> Intent selected lines to left with <number> spaces
+
 ## FZF
 
 - <kbd>Ctrl+f</kbd> : Find file
