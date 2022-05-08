@@ -4,7 +4,7 @@ My personnal neovim config written in lua
 
 ## Preview
 
-![image](https://user-images.githubusercontent.com/59796136/167299765-b84eb2fd-7251-4d1a-ad26-12c551865863.png)
+![image](https://user-images.githubusercontent.com/59796136/167299818-8e8d9bac-146d-4fe4-860f-317d25a49110.png)
 
 ## Installation
 
