@@ -1,5 +1,15 @@
 # Mapping keys
 
+## General
+
+### Navigation
+
+- <kbd>l</kbd> Right
+- <kbd>h</kbd> Left
+- <kbd>j</kbd> Down
+- <kbd>k</kbd> Up
+
+
 ## [VISUAL MODE] Text
 
 ### Util
