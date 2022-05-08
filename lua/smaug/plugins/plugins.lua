@@ -30,14 +30,14 @@ if not status_ok then
   return
 end
 
--- Have packer use a popup window
--- packer.init {
---  display = {
---    open_fn = function()
---      return require("packer.util").float { border = "rounded" }
---    end,
---  },
---}
+--Have packer use a popup window
+packer.init {
+ display = {
+    open_fn = function()
+      return require("packer.util").float { border = "rounded" }
+    end,
+  }
+}
 
 -- Install your plugins here
 return packer.startup(function(use)
@@ -45,10 +45,10 @@ return packer.startup(function(use)
   -- Plugins here ("GITHUB_USERNAME/REPO_NAME")
 
   -- General and util plugins
-  use "wbthomason/packer.nvim"   -- Have packer manage itself
-  use "nvim-lua/popup.nvim"      -- An implementation of the Popup API from vim in Neovim
-  use "nvim-lua/plenary.nvim"    -- Useful lua functions used by lots of plugins (telescope)
-  use "kyazdani42/nvim-web-devicons" -- (for nvim-tree & lualine.nvim & barbar)
+  use "wbthomason/packer.nvim"             -- Have packer manage itself
+  use "nvim-lua/popup.nvim"                -- An implementation of the Popup API from vim in Neovim
+  use "nvim-lua/plenary.nvim"              -- Useful lua functions used by lots of plugins (telescope)
+  use "kyazdani42/nvim-web-devicons"       -- (for nvim-tree & lualine.nvim & barbar)
 
   --Autopairs
   use "windwp/nvim-autopairs"
@@ -57,6 +57,10 @@ return packer.startup(function(use)
   use 'joshdick/onedark.vim'               -- Colorscheme
   use 'nvim-lualine/lualine.nvim'          -- Status line
   use 'romgrk/barbar.nvim'                 -- Tabline plugin
+
+  -- Startify
+  use 'goolord/alpha-nvim'                 -- Greeter like startify
+
   -- cmp plugins
   use "hrsh7th/nvim-cmp"                   -- The completion plugin
   use "hrsh7th/cmp-buffer"                 -- buffer completions
@@ -66,7 +70,7 @@ return packer.startup(function(use)
   use "hrsh7th/cmp-nvim-lsp"               -- lsp completions
 --  use "hrsh7th/cmp-nvim-lua"
 
-  -- snippets
+  -- Snippets
   use "L3MON4D3/LuaSnip"                   --snippet engine
   use "rafamadriz/friendly-snippets"       -- a bunch of snippets to use
 

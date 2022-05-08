@@ -1,5 +1,6 @@
 require 'smaug.plugins.plugins'
 require 'smaug.plugins.config.autopairs'
+require 'smaug.plugins.config.alpha'
 require 'smaug.plugins.config.cmp'
 require 'smaug.plugins.config.colorscheme'
 require 'smaug.plugins.config.lsp'
