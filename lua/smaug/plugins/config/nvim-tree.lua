@@ -1,4 +1,9 @@
-require'nvim-tree'.setup { -- BEGIN_DEFAULT_OPTS
+local status_ok, ntree = pcall(require, "nvim-tree")
+if not status_ok then
+  return vim.notify("Cannot find the module 'nvim-tree'. Unable to load it.")
+end
+
+ntree.setup {
   auto_reload_on_write = true,
   disable_netrw = false,
   hijack_cursor = false,
