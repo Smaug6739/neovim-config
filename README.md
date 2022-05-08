@@ -9,3 +9,14 @@ My personnal neovim config written in lua
 ## Installation
 
 See installation guide in [INSTALATION_FR.md](./INSTALLATION_FR.md) (only available in french for now)
+
+## Features
+
+- Package management system (Packer)
+- Config fully written in lua
+- Code completion with nvim-cmp
+- LSP: servers manager (nvim-lsp-installer)
+- LSP: Autocompletion
+- Configurable colorscheme (github dark theme by default)
+- Syntax highlight (treesitter)
+- Navigation between files and lines with telescope
