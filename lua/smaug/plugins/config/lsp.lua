@@ -2,12 +2,12 @@ local status_ok, lspconfig = pcall(require, "lspconfig")
 if not status_ok then
   return vim.notify("Cannot find the module 'lspconfig' (official plugin). Unable to load it.")
 end
+local config = require('smaug.config')
 
 
-local servers = { "sumneko_lua", "tsserver", "jsonls" }
 -- Configure servers installer --
 require("nvim-lsp-installer").setup({
-    ensure_installed = servers, -- ensure these servers are always installed
+    ensure_installed = config.lsp_servers, -- ensure these servers are always installed
     automatic_installation = true, -- automatically detect which servers to install (based on which servers are set up via lspconfig)
     ui = {
         icons = {
@@ -53,7 +53,7 @@ end
 -- Use a loop to conveniently call 'setup' on multiple servers and
 -- map buffer local keybindings when the language server attaches
 
-for _, lsp in pairs(servers) do
+for _, lsp in pairs(config.lsp_servers) do
   lspconfig[lsp].setup {
     on_attach = on_attach,
     flags = {
