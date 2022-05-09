@@ -20,3 +20,7 @@ See installation guide in [INSTALATION_FR.md](./INSTALLATION_FR.md) (only availa
 - Configurable colorscheme (github dark theme by default)
 - Syntax highlight (treesitter)
 - Navigation between files and lines with telescope
+
+## Keymaps
+
+Please see keeymaps in dedicate documentation file.
