@@ -24,3 +24,7 @@ See installation guide in [INSTALATION_FR.md](./INSTALLATION_FR.md) (only availa
 ## Keymaps
 
 Please see keeymaps in dedicate documentation file.
+
+## Compatibility
+
+- [x] Windows
