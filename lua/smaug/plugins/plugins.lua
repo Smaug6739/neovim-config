@@ -77,19 +77,16 @@ return packer.startup(function(use)
 
   -- LSP
   use "neovim/nvim-lspconfig"              -- enable LSP
-  use "williamboman/nvim-lsp-installer"    -- simple to use language server 
+  use "williamboman/nvim-lsp-installer"    -- simple to use language server
 
   -- FZF
-  use "nvim-telescope/telescope.nvim"      -- search file, line of code etc 
+  use "nvim-telescope/telescope.nvim"      -- search file, line of code etc
 
-  -- File explorer 
+  -- File explorer
   use "kyazdani42/nvim-tree.lua"           -- a simple file explorer
 
   -- Treesitter
   use "nvim-treesitter/nvim-treesitter"    -- Syntax coloration
-
-  -- Fun (very optional)
-  use "andweeb/presence.nvim"
 
   -- Automatically set up your configuration after cloning packer.nvim
   -- Put this at the end after all plugins

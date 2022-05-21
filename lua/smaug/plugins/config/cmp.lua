@@ -123,4 +123,8 @@ cmp.setup {
     ghost_text = false,
     native_menu = false,
   },
+  window = {
+      completion = cmp.config.window.bordered(),
+      documentation = cmp.config.window.bordered(),
+  },
 }
