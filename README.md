@@ -25,6 +25,13 @@ See installation guide in [INSTALATION_FR.md](./INSTALLATION_FR.md) (only availa
 
 Please see keeymaps in dedicate documentation file.
 
+## Requirements
+
+- Neovim installed on your PC
+- Git installed
+- A terminal
+- A compiler (gcc, g++, zig...) for treesitter
+
 ## Compatibility
 
 - [x] Windows
