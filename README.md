@@ -28,4 +28,4 @@ Please see keeymaps in dedicate documentation file.
 ## Compatibility
 
 - [x] Windows
-- [ ] Linux (Ubuntu)
+- [x] Linux (Ubuntu)
