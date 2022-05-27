@@ -35,4 +35,5 @@ Please see keeymaps in dedicate documentation file.
 ## Compatibility
 
 - [x] Windows
+- [ ] MacOS (need test)
 - [x] Linux (Ubuntu)
