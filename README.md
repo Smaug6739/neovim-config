@@ -36,4 +36,4 @@ Please see keeymaps in dedicate documentation file.
 
 - [x] Windows
 - [ ] MacOS (need test)
-- [x] Linux (Ubuntu)
+- [x] Linux (Ubuntu 22.04)
