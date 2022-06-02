@@ -41,6 +41,6 @@ Windows terminal configuration (`settings.json`)
 
 ## Compilateur
 
-### Ripgrep
+## Ripgrep
 
 https://github.com/BurntSushi/ripgrep
