@@ -38,3 +38,9 @@ Windows terminal configuration (`settings.json`)
   },
 },
 ```
+
+## Compilateur
+
+### Ripgrep
+
+https://github.com/BurntSushi/ripgrep
