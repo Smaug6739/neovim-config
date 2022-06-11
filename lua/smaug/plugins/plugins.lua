@@ -75,11 +75,12 @@ return packer.startup(function(use)
   use "L3MON4D3/LuaSnip"                   --snippet engine
   use "rafamadriz/friendly-snippets"       -- a bunch of snippets to use
   use "nl-contributions/sheweny-typescript-snippets" -- sheweny
-    
+
 
   -- LSP
   use "neovim/nvim-lspconfig"              -- enable LSP
   use "williamboman/nvim-lsp-installer"    -- simple to use language server
+  use "jose-elias-alvarez/null-ls.nvim"    -- Inject LSP diagnostics, code actions ...
 
   -- FZF
   use "nvim-telescope/telescope.nvim"      -- search file, line of code etc
