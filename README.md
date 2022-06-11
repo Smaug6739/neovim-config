@@ -37,3 +37,9 @@ Please see keeymaps in dedicate documentation file.
 - [x] Windows
 - [ ] MacOS (need test)
 - [x] Linux (Ubuntu 22.04)
+
+> **Warning**
+> 
+> - **If you are using linux**: You need install `xclip` to have access to system clipboard.
+
+
