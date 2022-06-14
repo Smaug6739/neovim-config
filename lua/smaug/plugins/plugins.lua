@@ -91,6 +91,9 @@ return packer.startup(function(use)
   -- Treesitter
   use "nvim-treesitter/nvim-treesitter"    -- Syntax coloration
 
+  -- Other
+  use "ap/vim-css-color"                   -- Display hex colors
+
   -- Automatically set up your configuration after cloning packer.nvim
   -- Put this at the end after all plugins
   if PACKER_BOOTSTRAP then
