@@ -36,6 +36,7 @@ null_ls.setup {
 
     -- Formatting
     null_ls.builtins.formatting.prettier.with({ extra_args = { "--write" } }),
+    null_ls.builtins.formatting.gofmt, -- Golang
     --null_ls.builtins.formatting.eslint,
   },
 }
